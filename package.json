@@ -1,0 +1,32 @@
+{
+  "name": "npm-card",
+  "version": "1.0.0",
+  "description": "Hi! It's me, Vicky! A personal card for Vicky(@Viki-Robles)",
+  "main": "index.js",
+  "bin": {
+    "npm-card": "card.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viki-Robles/npm-card.git"
+  },
+  "author": "vicky-robles",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "bugs": {
+    "url": "https://github.com/Viki-Robles/npm-card/issues"
+  },
+  "homepage": "https://github.com/Viki-Robles/npm-card#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.0",
+    "standard": "^16.0.3"
+  }
+}
