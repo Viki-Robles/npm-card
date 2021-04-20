@@ -4,7 +4,7 @@
   "description": "Hi! It's me, Vicky! A personal card for Vicky(@Viki-Robles)",
   "main": "index.js",
   "bin": {
-    "npm-card": "card.js"
+    "npm-vrobles-card": "./bin/card.js"
   },
   "scripts": {
     "prepublish": "npm run build",
