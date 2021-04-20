@@ -16,7 +16,7 @@ const data = {
     "https://www.linkedin.com/in/vicky-vasilopoulou-52230111b"
   ),
   web: chalk.cyan("https://myportfolio-puce.vercel.app"),
-  npx: chalk.white("npx vrobles"),
+  npm: chalk.white("npm-vrobles-card"),
   labelWork: chalk.white.bold("      Work:"),
   labelGitHub: chalk.white.bold("    GitHub:"),
   labelLinkedin: chalk.white.bold("  Linkedin:"),
