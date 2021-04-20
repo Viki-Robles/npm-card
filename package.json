@@ -1,5 +1,5 @@
 {
-  "name": "npm-card",
+  "name": "npm-vrobles-card",
   "version": "1.0.0",
   "description": "Hi! It's me, Vicky! A personal card for Vicky(@Viki-Robles)",
   "main": "index.js",
@@ -7,6 +7,8 @@
     "npm-card": "card.js"
   },
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
