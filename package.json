@@ -1,10 +1,10 @@
 {
-  "name": "npm-vrobles-card",
+  "name": "npm-card",
   "version": "1.0.0",
   "description": "Hi! It's me, Vicky! A personal card for Vicky(@Viki-Robles)",
   "main": "index.js",
   "bin": {
-    "npm-vrobles-card": "./bin/card.js"
+    "npm-card": "card.js"
   },
   "scripts": {
     "prepublish": "npm run build",
