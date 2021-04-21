@@ -5,6 +5,6 @@ Hi! It's me, Vicky!
 Nice e-meeting you!
 
 ## Usage
-Via npx: 
+Via npm: 
 
-`` npx vrobles``
+``npm-vrobles-card``
