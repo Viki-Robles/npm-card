@@ -1,5 +1,3 @@
-"use strict";
-
 const chalk = require("chalk");
 const boxen = require("boxen");
 const fs = require("fs");
@@ -48,15 +46,15 @@ const output =
   newline +
   deving +
   newline +
-  newline +
-  fs.writeFileSync(
-    path.join(__dirname, "bin/output"),
-    chalk.green(
-      boxen(output, {
-        padding: 1,
-        margin: 1,
-        borderStyle: "double",
-        borderColor: "white",
-      })
-    )
-  );
+  newline;
+fs.writeFileSync(
+  path.join(__dirname, "bin/output"),
+  chalk.green(
+    boxen(output, {
+      padding: 1,
+      margin: 1,
+      borderStyle: "double",
+      borderColor: "white",
+    })
+  )
+);
