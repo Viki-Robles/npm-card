@@ -4,7 +4,7 @@
   "description": "Hi! It's me, Vicky! A personal card for Vicky(@Viki-Robles)",
   "main": "index.js",
   "bin": {
-    "vrobles": "card.js"
+    "vrobles": "./bin/card.js"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -25,7 +25,6 @@
     "url": "https://github.com/Viki-Robles/npm-card/issues"
   },
   "homepage": "https://github.com/Viki-Robles/npm-card#readme",
-  "devDependencies": {},
   "dependencies": {
     "boxen": "^5.0.1",
     "chalk": "^4.1.0",
